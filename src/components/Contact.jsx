@@ -11,15 +11,17 @@ import {
 const Contact = () => {
   return (
     <div
-      className="w-10/12 h-screen mx-auto flex items-center justify-between my-10"
+      className="w-11/12 lg:w-10/12 lg:h-screen mx-auto flex flex-col-reverse lg:flex-row items-center justify-between gap-20 py-10 mt-24 lg:mt-0"
       id="contact"
     >
       {/* contact left side */}
       <div>
-        <h2 className="text-4xl font-semibold uppercase text-[#00abf0] mb-1">
+        <h2 className="text-3xl lg:text-4xl font-semibold uppercase text-[#00abf0] mb-1">
           Get In Touch
         </h2>
-        <h4 className="text-2xl text-white mb-6">Let&apos;s Work Together</h4>
+        <h4 className="text-lg lg:text-2xl text-white mb-6">
+          Let&apos;s Work Together
+        </h4>
         <div className="flex items-center gap-2 text-white mb-3">
           <HiOutlineLocationMarker className="w-6 h-6" />
           <span>Lakshmipur, Bangladesh</span>
@@ -38,18 +40,22 @@ const Contact = () => {
           </a>
         </div>
         <div className="flex items-center gap-4 my-8">
-          <a href="">
-            <BsLinkedin className="w-8 h-8 text-white" />
+          <a
+            href="https://www.linkedin.com/in/riyazul-haque/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <BsLinkedin className="w-6 lg:w-8 h-6 lg:h-8 text-white" />
           </a>
 
           <a href="">
-            <BsFacebook className="w-8 h-8 text-white" />
+            <BsFacebook className="w-6 lg:w-8 h-6 lg:h-8 text-white" />
           </a>
           <a href="">
-            <BsMessenger className="w-8 h-8 text-white" />
+            <BsMessenger className="w-6 lg:w-8 h-6 lg:h-8 text-white" />
           </a>
           <a href="">
-            <BsWhatsapp className="w-8 h-8 text-white" />
+            <BsWhatsapp className="w-6 lg:w-8 h-6 lg:h-8 text-white" />
           </a>
         </div>
       </div>

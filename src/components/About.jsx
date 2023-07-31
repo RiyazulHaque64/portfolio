@@ -3,13 +3,13 @@ import { BiDownload } from "react-icons/bi";
 const About = () => {
   return (
     <div
-      className="w-10/12 h-screen mx-auto flex justify-between items-center gap-10"
+      className="w-10/12 h-screen mx-auto flex flex-col lg:flex-row justify-between items-center gap-10 py-10 mt-14 lg:mt-0"
       id="about"
     >
       {/* about image */}
-      <div className="banner-image w-1/2 h-[600px] bg-top bg-no-repeat mix-blend-lighten"></div>
+      <div className="banner-image w-1/2 h-[600px] bg-top bg-no-repeat mix-blend-lighten hidden lg:block"></div>
       {/* about right side */}
-      <div className="w-1/2">
+      <div className="w-full lg:w-1/2 py-10">
         <h2 className="text-4xl font-semibold uppercase text-[#00abf0] mb-2">
           About Me
         </h2>
