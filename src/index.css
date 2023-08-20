@@ -13,3 +13,57 @@ body {
 .active {
   @apply text-[#00abf0];
 }
+/* .test {
+  position: relative;
+}
+.test::before {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #00abf0;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.test::after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #00abf0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.test2 {
+  position: relative;
+}
+.test2::before {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  border-radius: 20px;
+  background-color: #00abf0;
+  position: absolute;
+  left: 26px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.test2::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  border-radius: 20px;
+  background-color: #00abf0;
+  position: absolute;
+  right: 26px;
+  top: 50%;
+  transform: translateY(-50%);
+} */

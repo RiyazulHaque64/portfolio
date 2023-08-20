@@ -1,17 +1,18 @@
 import { BiDownload } from "react-icons/bi";
 import { BsFacebook, BsLinkedin, BsGithub, BsWhatsapp } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import ReactWhatsapp from "react-whatsapp";
 
 const Banner = () => {
   return (
     <div
-      className="w-11/12 lg:w-10/12 h-screen mx-auto flex items-center justify-between"
+      className="w-11/12 lg:w-10/12 py-28 lg:py-0 lg:h-screen mx-auto flex items-center justify-between"
       id="home"
     >
       {/* banner left side */}
-      <div className="w-full lg:w-8/12 flex flex-col items-center lg:items-start text-center lg:text-left">
+      <div className="w-full flex flex-col items-center justify-center text-center">
         <h2
-          className="text-3xl lg:text-5xl font-bold text-white mb-2"
+          className="text-3xl lg:text-5xl font-bold text-white mb-3 lg:mb-4"
           data-aos="fade-up"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1500"
@@ -27,12 +28,13 @@ const Banner = () => {
           MERN-Stack Developer
         </h4>
         <p
-          className="w-10/12 text-lg text-gray-200 my-6"
+          className="text-base lg:text-lg text-gray-300 my-6 lg:my-10 w-9/12 lg:w-6/12"
           data-aos="fade-up"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1900"
         >
-          I have skilled ReactJS, ExpressJS, MongoDB, Firebase, TailwindCSS.
+          I have skilled HTML5, CSS3, TailwindCSS, Bootstrap, JavaScript,
+          TypeScript, ReactJS, NextJS, ExpressJS, MongoDB, Mongoose & Firebase.
           I&apos;m familier with NodeJS and I previous experienced with
           Wordpress CMS.
         </p>
@@ -81,18 +83,18 @@ const Banner = () => {
           >
             <BsFacebook className="w-8 h-8 text-white" />
           </a>
-          <a href="">
+          <ReactWhatsapp number="+8801840452116">
             <BsWhatsapp className="w-8 h-8 text-white" />
-          </a>
+          </ReactWhatsapp>
         </div>
       </div>
       {/* Banner right side */}
-      <div
+      {/* <div
         className="banner-image h-[550px] w-4/12 z-20 bg-contain bg-no-repeat mix-blend-lighten bg-top hidden lg:block"
         data-aos="fade-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="2000"
-      ></div>
+      ></div> */}
     </div>
   );
 };
